@@ -75,9 +75,40 @@ ul {
     border: 1px solid #3882f6;
 }
 
-
-img {
+.header-content img {
     background-color: gray;
 }
 
+/* ----Styling information section------ */
 
+.info {
+    color: #1f2937;
+    height: 400px;
+}
+.info-title {
+    margin: 30px 0px;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+.card img {
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card .text {
+    text-align: center;
+}
